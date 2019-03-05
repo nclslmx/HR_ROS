@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$/adas_msgs" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/body_tracker_msgs" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cluster_gen" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/head_filter" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/nuitrack_body_tracker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/time_serify" vcs="Git" />
   </component>
 </project>

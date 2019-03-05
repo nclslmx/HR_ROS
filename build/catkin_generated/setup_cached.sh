@@ -7,3 +7,4 @@
 # new environment variables
 
 # modified environment variables
+export PWD="/home/ncls/catkin_ws/build"

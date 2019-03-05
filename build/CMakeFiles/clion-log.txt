@@ -14,11 +14,12 @@
 -- catkin 0.7.14
 -- BUILD_SHARED_LIBS is on
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--- ~~  traversing 8 packages in topological order:
+-- ~~  traversing 9 packages in topological order:
 -- ~~  - adas_msgs
 -- ~~  - body_tracker_msgs
 -- ~~  - nuitrack_body_tracker
 -- ~~  - ddynamic_reconfigure
+-- ~~  - time_serify
 -- ~~  - cluster_gen
 -- ~~  - cluster_visualiser
 -- ~~  - head_filter
@@ -38,6 +39,8 @@
 -- ==> add_subdirectory(realsense-2.2.0/ddynamic_reconfigure)
 -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
 -- ddynamic_reconfigure: 0 messages, 1 services
+-- +++ processing catkin package: 'time_serify'
+-- ==> add_subdirectory(time_serify)
 -- +++ processing catkin package: 'cluster_gen'
 -- ==> add_subdirectory(cluster_gen)
 -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy

@@ -1,0 +1,8 @@
+prefix=/home/ncls/catkin_ws/devel
+
+Name: time_serify
+Description: Description of time_serify
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ncls/catkin_ws/devel/lib 
+Requires: 

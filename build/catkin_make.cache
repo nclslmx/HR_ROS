@@ -1,2 +1,2 @@
-adas_msgs:body_tracker_msgs:cluster_gen:cluster_visualiser:head_filter:nuitrack_body_tracker:realsense-2.2.0/ddynamic_reconfigure:realsense-2.2.0/realsense2_camera
--DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/ncls/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ncls/catkin_ws/install -G Unix Makefiles
+body_tracker_msgs:head_filter:movement_getter:nuitrack_body_tracker:realsense-2.2.0/ddynamic_reconfigure:realsense-2.2.0/realsense2_camera:time_serify
+-DCATKIN_DEVEL_PREFIX=/home/ncls/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ncls/catkin_ws/install -G Unix Makefiles
