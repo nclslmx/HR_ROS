@@ -810,6 +810,7 @@
       <change beforePath="$PROJECT_DIR$/cluster_gen/cmake-build-debug/gtest/cmake_install.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cluster_gen/cmake-build-debug/gtest/gtest.cbp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cluster_gen/cmake-build-debug/setup_custom_pythonpath.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluster_gen/include/cluster_gen.h" beforeDir="false" afterPath="$PROJECT_DIR$/cluster_gen/include/cluster_gen.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cluster_gen/src/cluster_gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cluster_gen/src/cluster_gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/head_filter/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/head_filter/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/head_filter/CMakeLists.txt" afterDir="false" />
@@ -833,8 +834,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/head_filter/include/head_filter.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="127" column="31" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
+            <state relative-caret-position="1547">
+              <caret line="113" column="38" lean-forward="true" selection-start-line="113" selection-start-column="38" selection-end-line="113" selection-end-column="38" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -845,19 +846,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/head_filter/src/head_filter.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="212">
+              <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster_visualiser/src/cluster_visualiser.cpp">
+        <entry file="file://$PROJECT_DIR$/cluster_gen/src/cluster_gen.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="46" />
+            <state relative-caret-position="400">
+              <caret line="218" lean-forward="true" selection-start-line="200" selection-end-line="218" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluster_gen/include/cluster_gen.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="293" selection-start-line="293" selection-end-line="302" />
               <folding>
-                <element signature="e#47#83#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -874,6 +884,10 @@
       <find>sub_kinect_cloud</find>
       <find>cloud_cb</find>
       <find>cent</find>
+      <find>cluster_indices</find>
+      <find>kinec</find>
+      <find>eigen_vectors</find>
+      <find>covariance_matrix</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -882,8 +896,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cluster_gen/src/cluster_gen.cpp" />
         <option value="$PROJECT_DIR$/cluster_visualiser/src/cluster_visualiser.cpp" />
+        <option value="$PROJECT_DIR$/cluster_gen/include/cluster_gen.h" />
+        <option value="$PROJECT_DIR$/cluster_gen/src/cluster_gen.cpp" />
         <option value="$PROJECT_DIR$/head_filter/include/head_filter.h" />
         <option value="$PROJECT_DIR$/head_filter/src/head_filter.cpp" />
       </list>
@@ -911,6 +926,26 @@
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cluster_gen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cluster_gen" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cluster_gen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -2098,12 +2133,12 @@
       <workItem from="1551747026894" duration="344000" />
       <workItem from="1551747489757" duration="273000" />
       <workItem from="1551747766873" duration="3407000" />
-      <workItem from="1551802275049" duration="6216000" />
+      <workItem from="1551802275049" duration="11865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26772000" />
+    <option name="totallyTimeSpent" value="32421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -2139,8 +2174,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/cluster_gen/src/cluster_gen.cpp</url>
-          <line>211</line>
+          <line>205</line>
           <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/head_filter/src/head_filter.cpp</url>
+          <line>102</line>
+          <option name="timeStamp" value="94" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -2174,13 +2214,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluster_gen/src/cluster_gen.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="377" column="45" selection-start-line="377" selection-start-column="45" selection-end-line="377" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/boost/smart_ptr/shared_ptr.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -2198,10 +2231,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cluster_gen/include/cluster_gen.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="293" selection-start-line="293" selection-end-line="302" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster_gen/src/cluster_gen.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="218" lean-forward="true" selection-start-line="200" selection-end-line="218" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/head_filter/include/head_filter.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="127" column="31" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
+        <state relative-caret-position="1547">
+          <caret line="113" column="38" lean-forward="true" selection-start-line="113" selection-start-column="38" selection-end-line="113" selection-end-column="38" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
@@ -2210,8 +2260,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/head_filter/src/head_filter.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="212">
+          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
         </state>
       </provider>
     </entry>
