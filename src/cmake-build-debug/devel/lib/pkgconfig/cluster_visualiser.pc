@@ -1,0 +1,8 @@
+prefix=/home/ncls/catkin_ws/src/cmake-build-debug/devel
+
+Name: cluster_visualiser
+Description: Description of cluster_visualiser
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ncls/catkin_ws/src/cmake-build-debug/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/ncls/catkin_ws/install
+
+Name: head_filter
+Description: Description of head_filter
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ncls/catkin_ws/install/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/ncls/catkin_ws/devel
+
+Name: nuitrack_body_tracker
+Description: Description of nuitrack_body_tracker
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ncls/catkin_ws/devel/lib 
+Requires: roscpp geometry_msgs visualization_msgs std_msgs body_tracker_msgs

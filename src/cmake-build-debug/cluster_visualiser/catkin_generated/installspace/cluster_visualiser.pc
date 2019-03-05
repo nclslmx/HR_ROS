@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: cluster_visualiser
+Description: Description of cluster_visualiser
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

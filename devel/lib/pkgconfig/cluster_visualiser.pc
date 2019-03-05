@@ -1,0 +1,8 @@
+prefix=/home/ncls/catkin_ws/devel
+
+Name: cluster_visualiser
+Description: Description of cluster_visualiser
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ncls/catkin_ws/devel/lib 
+Requires: 

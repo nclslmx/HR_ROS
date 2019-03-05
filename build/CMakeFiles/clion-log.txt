@@ -1,0 +1,109 @@
+/home/ncls/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug DCATKIN_DEVEL_PREFIX:PATH=/home/ncls/catkin_ws/devel -G "CodeBlocks - Unix Makefiles" /home/ncls/catkin_ws/src
+-- Using CATKIN_DEVEL_PREFIX: /home/ncls/catkin_ws/devel
+-- Using CMAKE_PREFIX_PATH: /home/ncls/catkin_ws/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/ncls/catkin_ws/devel;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ncls/catkin_ws/build/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 8 packages in topological order:
+-- ~~  - adas_msgs
+-- ~~  - body_tracker_msgs
+-- ~~  - nuitrack_body_tracker
+-- ~~  - ddynamic_reconfigure
+-- ~~  - cluster_gen
+-- ~~  - cluster_visualiser
+-- ~~  - head_filter
+-- ~~  - realsense2_camera
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'adas_msgs'
+-- ==> add_subdirectory(adas_msgs)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- adas_msgs: 1 messages, 0 services
+-- +++ processing catkin package: 'body_tracker_msgs'
+-- ==> add_subdirectory(body_tracker_msgs)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- body_tracker_msgs: 3 messages, 0 services
+-- +++ processing catkin package: 'nuitrack_body_tracker'
+-- ==> add_subdirectory(nuitrack_body_tracker)
+-- +++ processing catkin package: 'ddynamic_reconfigure'
+-- ==> add_subdirectory(realsense-2.2.0/ddynamic_reconfigure)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- ddynamic_reconfigure: 0 messages, 1 services
+-- +++ processing catkin package: 'cluster_gen'
+-- ==> add_subdirectory(cluster_gen)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   system
+--   thread
+--   graph
+--   chrono
+--   date_time
+--   atomic
+-- +++ processing catkin package: 'cluster_visualiser'
+-- ==> add_subdirectory(cluster_visualiser)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'head_filter'
+-- ==> add_subdirectory(head_filter)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   system
+--   thread
+--   graph
+--   chrono
+--   date_time
+--   atomic
+-- +++ processing catkin package: 'realsense2_camera'
+-- ==> add_subdirectory(realsense-2.2.0/realsense2_camera)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Create Debug Build.
+-- realsense2_camera: 2 messages, 0 services
+-- Configuring done
+CMake Warning (dev) at cluster_gen/CMakeLists.txt:220 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "cluster_gen_EXPORTED_TARGETS" of target
+  "cluster_gen" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cluster_gen/CMakeLists.txt:220 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "cluster_gen_generate_messages_cpp" of target
+  "cluster_gen" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cluster_visualiser/CMakeLists.txt:210 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "cluster_visualiser_EXPORTED_TARGETS" of target
+  "cluster_visualiser" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cluster_visualiser/CMakeLists.txt:210 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "cluster_visualiser_generate_messages_cpp" of target
+  "cluster_visualiser" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /home/ncls/catkin_ws/build

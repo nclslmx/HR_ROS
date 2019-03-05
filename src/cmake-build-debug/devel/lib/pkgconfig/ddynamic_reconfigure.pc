@@ -1,0 +1,8 @@
+prefix=/home/ncls/catkin_ws/src/cmake-build-debug/devel
+
+Name: ddynamic_reconfigure
+Description: Description of ddynamic_reconfigure
+Version: 0.0.6
+Cflags: -I/home/ncls/catkin_ws/src/cmake-build-debug/devel/include -I/home/ncls/catkin_ws/src/realsense-2.2.0/ddynamic_reconfigure/include
+Libs: -L/home/ncls/catkin_ws/src/cmake-build-debug/devel/lib -lddynamic_reconfigure
+Requires: 
