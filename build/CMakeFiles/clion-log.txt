@@ -14,21 +14,15 @@
 -- catkin 0.7.14
 -- BUILD_SHARED_LIBS is on
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--- ~~  traversing 9 packages in topological order:
--- ~~  - adas_msgs
+-- ~~  traversing 7 packages in topological order:
 -- ~~  - body_tracker_msgs
 -- ~~  - nuitrack_body_tracker
 -- ~~  - ddynamic_reconfigure
 -- ~~  - time_serify
--- ~~  - cluster_gen
--- ~~  - cluster_visualiser
 -- ~~  - head_filter
+-- ~~  - movement_getter
 -- ~~  - realsense2_camera
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--- +++ processing catkin package: 'adas_msgs'
--- ==> add_subdirectory(adas_msgs)
--- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
--- adas_msgs: 1 messages, 0 services
 -- +++ processing catkin package: 'body_tracker_msgs'
 -- ==> add_subdirectory(body_tracker_msgs)
 -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
@@ -41,8 +35,8 @@
 -- ddynamic_reconfigure: 0 messages, 1 services
 -- +++ processing catkin package: 'time_serify'
 -- ==> add_subdirectory(time_serify)
--- +++ processing catkin package: 'cluster_gen'
--- ==> add_subdirectory(cluster_gen)
+-- +++ processing catkin package: 'head_filter'
+-- ==> add_subdirectory(head_filter)
 -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
 -- Boost version: 1.58.0
 -- Found the following Boost libraries:
@@ -52,11 +46,8 @@
 --   chrono
 --   date_time
 --   atomic
--- +++ processing catkin package: 'cluster_visualiser'
--- ==> add_subdirectory(cluster_visualiser)
--- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
--- +++ processing catkin package: 'head_filter'
--- ==> add_subdirectory(head_filter)
+-- +++ processing catkin package: 'movement_getter'
+-- ==> add_subdirectory(movement_getter)
 -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
 -- Boost version: 1.58.0
 -- Found the following Boost libraries:
@@ -72,40 +63,22 @@
 -- Create Debug Build.
 -- realsense2_camera: 2 messages, 0 services
 -- Configuring done
-CMake Warning (dev) at cluster_gen/CMakeLists.txt:220 (add_dependencies):
+CMake Warning (dev) at movement_getter/CMakeLists.txt:219 (add_dependencies):
   Policy CMP0046 is not set: Error on non-existent dependency in
   add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
   Use the cmake_policy command to set the policy and suppress this warning.
 
-  The dependency target "cluster_gen_EXPORTED_TARGETS" of target
-  "cluster_gen" does not exist.
+  The dependency target "movement_getter_EXPORTED_TARGETS" of target
+  "movement_getter" does not exist.
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
-CMake Warning (dev) at cluster_gen/CMakeLists.txt:220 (add_dependencies):
+CMake Warning (dev) at movement_getter/CMakeLists.txt:219 (add_dependencies):
   Policy CMP0046 is not set: Error on non-existent dependency in
   add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
   Use the cmake_policy command to set the policy and suppress this warning.
 
-  The dependency target "cluster_gen_generate_messages_cpp" of target
-  "cluster_gen" does not exist.
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
-CMake Warning (dev) at cluster_visualiser/CMakeLists.txt:210 (add_dependencies):
-  Policy CMP0046 is not set: Error on non-existent dependency in
-  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
-  Use the cmake_policy command to set the policy and suppress this warning.
-
-  The dependency target "cluster_visualiser_EXPORTED_TARGETS" of target
-  "cluster_visualiser" does not exist.
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
-CMake Warning (dev) at cluster_visualiser/CMakeLists.txt:210 (add_dependencies):
-  Policy CMP0046 is not set: Error on non-existent dependency in
-  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
-  Use the cmake_policy command to set the policy and suppress this warning.
-
-  The dependency target "cluster_visualiser_generate_messages_cpp" of target
-  "cluster_visualiser" does not exist.
+  The dependency target "movement_getter_generate_messages_cpp" of target
+  "movement_getter" does not exist.
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
 -- Generating done

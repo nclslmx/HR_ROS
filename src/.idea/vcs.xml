@@ -6,6 +6,7 @@
     <mapping directory="$PROJECT_DIR$/body_tracker_msgs" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cluster_gen" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/head_filter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/movement_getter" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/nuitrack_body_tracker" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/time_serify" vcs="Git" />
   </component>
