@@ -1,0 +1,16 @@
+<?xml version='1.0'?>
+<launch>
+
+<include file="$(find realsense-2.2.0)/realsense2_camera/launch/rs_camera.launch"/>
+    
+<node name="head_filter" pkg="head_filter" type="head_filter" respawn="true" />
+
+
+<node name="movement_getter" pkg="movement_getter" type="movement_getter"  respawn="true" output="screen" />
+
+
+
+
+
+
+</launch>
