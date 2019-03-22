@@ -22,7 +22,7 @@
   <arg name="enable_color"        default="true"/>
 
   <arg name="fisheye_fps"         default="30"/>
-  <arg name="depth_fps"           default="30"/>
+  <arg name="depth_fps"           default="60"/>
   <arg name="infra_fps"           default="30"/>
   <arg name="color_fps"           default="30"/>
   <arg name="gyro_fps"            default="400"/>
@@ -43,6 +43,10 @@
   <arg name="linear_accel_cov"      default="0.01"/>
   <arg name="initial_reset"         default="false"/>
   <arg name="unite_imu_method"      default=""/>
+
+
+
+
   
   <group ns="$(arg camera)">
     <include file="$(find realsense2_camera)/launch/includes/nodelet.launch.xml">
@@ -90,4 +94,5 @@
       <arg name="unite_imu_method"         value="$(arg unite_imu_method)"/>
     </include>
   </group>
+
 </launch>
